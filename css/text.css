@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:400,600,700);
+
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 16px/1.341 'Signika', 'Calibri', sans-serif;
+}
+
+pre,
+code {
+  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 371%;
+}
+
+h2 {
+  font-size: 275%;
+}
+
+h3 {
+  font-size: 235%;
+}
+
+h4 {
+  font-size: 200%;
+}
+
+h5 {
+  font-size: 178%;
+}
+
+h6 {
+  font-size: 130%;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-left: 15px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}

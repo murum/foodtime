@@ -1,0 +1,25 @@
+<?php
+
+class DBSettings {
+	
+	private static $m_host;
+	private static $m_user;
+	private static $m_pass;
+	private static $m_db;
+		
+	public function getDB() { return self::$m_db; }
+	public function getHost() { return self::$m_host; }
+	public function getUser() { return self::$m_user; }	
+	public function getPass() { return self::$m_pass; }
+	public function setDB($db) { self::$m_db = $db; }
+	public function setHost($host) { self::$m_host = $host; }
+	public function setUser($user) { self::$m_user = $user; }
+	public function setPass($pass) { self::$m_pass = $pass; }	
+	
+	public function __construct($db = "foodtime", $host = 'localhost', $user = 'root', $pass = '') {
+		$this->setDB($db);
+		$this->setHost($host);
+		$this->setUser($user);
+		$this->setPass($pass);
+	}
+}
