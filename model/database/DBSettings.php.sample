@@ -19,7 +19,7 @@ class DBSettings
 	public function setUser($user) { self::$m_user = $user; }
 	public function setPass($pass) { self::$m_pass = $pass; }	
 	
-	public function __construct($host = 'root', $user = 'root', $pass = '', $db = "foodtime") {
+	public function __construct($host = 'localhost', $user = 'root', $pass = 'root', $db = "foodtime") {
 		$this->setDB($db);
 		$this->setHost($host);
 		$this->setUser($user);
